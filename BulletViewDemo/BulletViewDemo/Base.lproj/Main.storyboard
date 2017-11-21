@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s28-GL-sbE">
-                                <rect key="frame" x="116" y="40" width="143" height="30"/>
+                                <rect key="frame" x="116" y="20" width="143" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="yyI-4K-eSU"/>
                                 </constraints>
@@ -32,15 +32,8 @@
                                     <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hZ3-TN-pdj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn0-o2-UP9">
-                                <rect key="frame" x="116" y="85" width="143" height="30"/>
-                                <state key="normal" title="Stop"/>
-                                <connections>
-                                    <action selector="Stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p8m-SL-KUM"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4V-H3-aad">
-                                <rect key="frame" x="261" y="40" width="98" height="30"/>
+                                <rect key="frame" x="138" y="58" width="98" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="84g-KK-FX3"/>
                                     <constraint firstAttribute="width" constant="98" id="Ts6-3K-UA7"/>
@@ -50,18 +43,25 @@
                                     <action selector="addaBarrage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tbs-2v-Snm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn0-o2-UP9">
+                                <rect key="frame" x="116" y="96" width="143" height="30"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="Stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p8m-SL-KUM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fn0-o2-UP9" firstAttribute="width" secondItem="s28-GL-sbE" secondAttribute="width" id="6fa-hU-E2r"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="R4V-H3-aad" secondAttribute="trailing" id="8zd-7C-g0j"/>
-                            <constraint firstItem="s28-GL-sbE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="G0j-o1-lFU"/>
-                            <constraint firstItem="R4V-H3-aad" firstAttribute="centerY" secondItem="s28-GL-sbE" secondAttribute="centerY" id="SoB-zP-0H0"/>
+                            <constraint firstItem="s28-GL-sbE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="G0j-o1-lFU"/>
                             <constraint firstItem="s28-GL-sbE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="bGI-2k-3QX"/>
+                            <constraint firstItem="R4V-H3-aad" firstAttribute="top" secondItem="s28-GL-sbE" secondAttribute="bottom" constant="8" id="jUI-qo-4Ov"/>
                             <constraint firstAttribute="trailingMargin" secondItem="s28-GL-sbE" secondAttribute="trailing" constant="100" id="njZ-m0-yez"/>
                             <constraint firstItem="fn0-o2-UP9" firstAttribute="centerX" secondItem="s28-GL-sbE" secondAttribute="centerX" id="uCN-0M-n3c"/>
                             <constraint firstItem="fn0-o2-UP9" firstAttribute="height" secondItem="s28-GL-sbE" secondAttribute="height" id="wXQ-gB-Zje"/>
-                            <constraint firstItem="fn0-o2-UP9" firstAttribute="top" secondItem="s28-GL-sbE" secondAttribute="bottom" constant="15" id="z5Z-7v-9qi"/>
+                            <constraint firstItem="R4V-H3-aad" firstAttribute="centerX" secondItem="s28-GL-sbE" secondAttribute="centerX" id="xsa-hN-mU9"/>
+                            <constraint firstItem="fn0-o2-UP9" firstAttribute="top" secondItem="s28-GL-sbE" secondAttribute="bottom" constant="46" id="z5Z-7v-9qi"/>
                         </constraints>
                     </view>
                 </viewController>
