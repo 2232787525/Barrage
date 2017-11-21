@@ -2,6 +2,8 @@
 闲来无事找的弹幕demo[原demo地址](https://github.com/LiuYulei001/BulletView) 感觉存在一些问题而且不可以实时插入新的弹幕， 所以进行了修改
 [git地址](https://github.com/2232787525/Barrage)
 
+![Image text](https://github.com/2232787525/Barrage/blob/master/image/弹幕gif.gif)
+
 功能优化如下：
 
 1. 通过设置 BulletManager 中的 numOfLines 属性 设置弹道的行数
