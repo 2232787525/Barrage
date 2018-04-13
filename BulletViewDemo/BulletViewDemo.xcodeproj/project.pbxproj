@@ -228,6 +228,7 @@
 				TargetAttributes = {
 					369D4DDC1F6A189A00D82167 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = N7NKCX8NBC;
 						ProvisioningStyle = Automatic;
 					};
 					369D4DF51F6A189A00D82167 = {
@@ -450,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7NKCX8NBC;
 				INFOPLIST_FILE = BulletViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Rainy.BulletViewDemo;
@@ -461,6 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7NKCX8NBC;
 				INFOPLIST_FILE = BulletViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Rainy.BulletViewDemo;
@@ -533,6 +536,7 @@
 				369D4E0C1F6A189A00D82167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		369D4E0D1F6A189A00D82167 /* Build configuration list for PBXNativeTarget "BulletViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +545,7 @@
 				369D4E0F1F6A189A00D82167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		369D4E101F6A189A00D82167 /* Build configuration list for PBXNativeTarget "BulletViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +554,7 @@
 				369D4E121F6A189A00D82167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
